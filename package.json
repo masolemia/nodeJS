@@ -4,7 +4,9 @@
   "description": "This repository is just for learning Branch means number of module",
   "main": "index.js",
   "scripts": {
-    "test": "run"
+    "test": "run",
+    "task1": "node tasks/Module_1_Task_1",
+    "task2": "node tasks/Module_1_Task_2"
   },
   "repository": {
     "type": "git",
