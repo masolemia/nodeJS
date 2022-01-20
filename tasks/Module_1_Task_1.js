@@ -4,7 +4,8 @@ function ask() {
 
 process.stdin.on("data", function (data) {
   let result = data.toString().split("").reverse().join("");
-  process.stdout.write(`${result}`);
+  console.log(result);
+  //process.stdout.write(`${result}`); the same as console.log
   process.exit();
 });
 ask();
